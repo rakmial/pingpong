@@ -8,3 +8,9 @@ describe('pingpong') do
   #Final test
   #expect(7.pingpong).to(eq([1,2,'ping',4,'pong','ping',7]))
 end
+
+### 'creates a list with number range 1..num'
+
+# 'each el mod 3 || 5 replace with "test"'
+# 'add control flow if el mod 3 replace with ping'
+# 'add control flow elif el mod 5 && not mod 3 replace with pong else replace ping-pong'
