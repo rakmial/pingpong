@@ -16,8 +16,3 @@ describe('pingpong') do
   end
 end
 
-### 'creates a list with number range 1..num'
-### 'each el mod 3 replace with "ping"'
-
-# 'add control flow elif el mod 5 replace with pong'
-# 'add control flow under mod 3 if mod 5 replace ping-pong'
