@@ -11,9 +11,9 @@ describe('pingpong') do
   it('search elements where modulo 5 == 0, replace with "pong"') do
     expect(5.pingpong).to(eq([1,2,"ping",4,"pong"]))
   end
-  
-  #Final test
-  #expect(7.pingpong).to(eq([1,2,'ping',4,'pong','ping',7]))
+  it('search elements where modulo 5 & modulo 3 == 0, replace with "ping-pong"') do
+    expect(15.pingpong).to(eq([1,2,'ping',4,'pong','ping',7,8,'ping','pong',11,'ping',13,14,'ping-pong']))
+  end
 end
 
 ### 'creates a list with number range 1..num'
