@@ -2,6 +2,6 @@ require('pry')
 
 class Integer
   def pingpong
-    # init range from 1 to num
+    (1..self).to_a
   end
 end
